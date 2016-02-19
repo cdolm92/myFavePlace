@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favoritePlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BronxImg" translatesAutoresizingMaskIntoConstraints="NO" id="yyG-5y-dVH">
+                                <rect key="frame" x="0.0" y="0.0" width="897" height="600"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0vM-MM-wG3">
+                                <rect key="frame" x="20" y="17" width="217" height="311"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zyj-DG-CbS">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="72"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOOGIE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lu-t4-ky7">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOWN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXg-NY-1rk">
+                                                <rect key="frame" x="0.0" y="24" width="80" height="24"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRd-2I-zmZ">
+                                                <rect key="frame" x="0.0" y="48" width="80" height="24"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PdZ-1K-Tw8">
+                                        <rect key="frame" x="0.0" y="102" width="217" height="144"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFf-9O-wAS">
+                                                <rect key="frame" x="0.0" y="0.0" width="217" height="72"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BRONX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYg-ud-aGw">
+                                                <rect key="frame" x="0.0" y="72" width="217" height="72"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Int-Kh-MtE">
+                                        <rect key="frame" x="0.0" y="276" width="160" height="35"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="zyD-rG-j1X">
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW YORK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uur-XQ-hn8">
+                                                <rect key="frame" x="50" y="0.0" width="110" height="35"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzq-Eg-y5j">
+                                <rect key="frame" x="226" y="517" width="149" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="jb9-OI-Jh6"/>
+                                    <constraint firstAttribute="height" constant="40" id="zUL-YA-4mf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="FIND OUT MORE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xXu-Cw-5NY" kind="show" id="iht-XZ-U2h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0vM-MM-wG3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5om-6o-r3H"/>
+                            <constraint firstItem="yyG-5y-dVH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GGZ-vG-sVJ"/>
+                            <constraint firstItem="yyG-5y-dVH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QBX-1C-w9u"/>
+                            <constraint firstItem="Gzq-Eg-y5j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S5l-9W-Vy7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gzq-Eg-y5j" secondAttribute="bottom" constant="43" id="UcA-Ta-KfF"/>
+                            <constraint firstItem="0vM-MM-wG3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="17" id="ZU7-e3-3nZ"/>
+                            <constraint firstAttribute="trailing" secondItem="yyG-5y-dVH" secondAttribute="trailing" constant="-297" id="zT4-oq-3Cw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yyG-5y-dVH" secondAttribute="bottom" id="zqg-OG-ouw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="moreBtn" destination="Gzq-Eg-y5j" id="z65-m5-jHx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="325"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="nfm-cm-1KN">
+            <objects>
+                <viewController id="xXu-Cw-5NY" customClass="DetailVC" customModule="favoritePlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X5k-vy-FmV"/>
+                        <viewControllerLayoutGuide type="bottom" id="4cX-Kf-Ue2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqJ-ng-CpW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BronxImg2" translatesAutoresizingMaskIntoConstraints="NO" id="zYH-jd-Xdd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="Z1u-Kn-3jw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE BRONX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egu-P7-mtD">
+                                <rect key="frame" x="202" y="65" width="195" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jYc-Cv-f3a"/>
+                                    <constraint firstAttribute="width" constant="195" id="paB-gn-xHE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Q32-hD-6CR">
+                                <rect key="frame" x="20" y="180" width="560" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3SF-s1-Pmy">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNs-wb-Nze">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="195" id="4C0-fb-Z24"/>
+                                                    <constraint firstAttribute="height" constant="21" id="IeJ-Vn-Sq6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="IeJ-Vn-Sq6"/>
+                                                        <exclude reference="4C0-fb-Z24"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="1.419 million " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6i-mN-srf">
+                                                <rect key="frame" x="0.0" y="24" width="119" height="51"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="195" id="0wi-uO-7LZ"/>
+                                                    <constraint firstAttribute="height" constant="21" id="CV0-tA-sRu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="CV0-tA-sRu"/>
+                                                        <exclude reference="0wi-uO-7LZ"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-50" translatesAutoresizingMaskIntoConstraints="NO" id="Ms0-Ti-AXh">
+                                        <rect key="frame" x="0.0" y="75" width="560" height="326"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="HISTORY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQI-JW-Wgg">
+                                                <rect key="frame" x="0.0" y="0.0" width="89" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="2ve-ma-tsO"/>
+                                                    <constraint firstAttribute="width" constant="195" id="gef-KT-LOl"/>
+                                                    <constraint firstAttribute="height" constant="21" id="rGe-vr-lvi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="gef-KT-LOl"/>
+                                                        <exclude reference="rGe-vr-lvi"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwC-v7-2db">
+                                                <rect key="frame" x="0.0" y="-26" width="559" height="352"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="47Q-8l-9na"/>
+                                                    <constraint firstAttribute="width" constant="195" id="v37-FL-INr"/>
+                                                </constraints>
+                                                <string key="text">The Bronx was called Rananchqua by the native Siwanoy band of Lenape, while other Natives knew The Bronx as Keskeskeck. It was divided by the “Aquahung” river, now known as the Bronx River. The land was first settled by Europeans in 1639, when Jonas Bronck, for whom the area was later named, established a farm along the Harlem River in the area now known as the Mott Haven section. The Dutch and English settlers referred to the area as “Bronck’s Land”.
+
+</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="47Q-8l-9na"/>
+                                                        <exclude reference="v37-FL-INr"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gki-aH-gDj">
+                                <rect key="frame" x="20" y="13" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="xXu-Cw-5NY" eventType="touchUpInside" id="W5Q-iO-XA9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q32-hD-6CR" firstAttribute="leading" secondItem="aqJ-ng-CpW" secondAttribute="leadingMargin" id="FRv-DZ-O07"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q32-hD-6CR" secondAttribute="trailing" id="Gn9-6Y-56U"/>
+                            <constraint firstItem="zYH-jd-Xdd" firstAttribute="top" secondItem="aqJ-ng-CpW" secondAttribute="top" id="NTc-gx-rIm"/>
+                            <constraint firstAttribute="trailing" secondItem="zYH-jd-Xdd" secondAttribute="trailing" id="P9d-Im-2yG"/>
+                            <constraint firstItem="Q32-hD-6CR" firstAttribute="top" secondItem="zYH-jd-Xdd" secondAttribute="bottom" constant="20" id="S8P-yQ-EjB"/>
+                            <constraint firstItem="egu-P7-mtD" firstAttribute="centerX" secondItem="aqJ-ng-CpW" secondAttribute="centerX" id="mJ8-tQ-OwX"/>
+                            <constraint firstItem="egu-P7-mtD" firstAttribute="top" secondItem="X5k-vy-FmV" secondAttribute="bottom" constant="45" id="myr-jo-8Zi"/>
+                            <constraint firstItem="4cX-Kf-Ue2" firstAttribute="top" secondItem="Q32-hD-6CR" secondAttribute="bottom" constant="20" id="wZY-2B-jeT"/>
+                            <constraint firstItem="zYH-jd-Xdd" firstAttribute="leading" secondItem="aqJ-ng-CpW" secondAttribute="leading" id="zxB-8H-fRk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFG-Fd-zYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="325"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BronxImg" width="2048" height="1365"/>
+        <image name="BronxImg2" width="850" height="567"/>
+        <image name="compass" width="35" height="35"/>
+    </resources>
+</document>
