@@ -22,16 +22,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="897" height="600"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0vM-MM-wG3">
-                                <rect key="frame" x="20" y="17" width="340.5" height="263"/>
+                                <rect key="frame" x="20" y="17" width="306.5" height="260.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boogie Down Are You In The House?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cC-fs-aG2">
-                                        <rect key="frame" x="0.0" y="0.0" width="340.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="306.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="18"/>
                                         <color key="textColor" red="0.86734532828282829" green="0.24594558596708926" blue="0.097110246716908682" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PdZ-1K-Tw8">
-                                        <rect key="frame" x="0.0" y="54" width="217" height="144"/>
+                                        <rect key="frame" x="0.0" y="51" width="217" height="144"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFf-9O-wAS">
                                                 <rect key="frame" x="0.0" y="0.0" width="217" height="72"/>
@@ -48,7 +48,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Int-Kh-MtE">
-                                        <rect key="frame" x="0.0" y="228" width="160" height="35"/>
+                                        <rect key="frame" x="0.0" y="225" width="160" height="35"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="zyD-rG-j1X">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
