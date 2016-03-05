@@ -22,10 +22,7 @@ class ViewController: UIViewController {
         photosBtn.layer.cornerRadius = 2.0
     }
     
-   
-    
-
-    override func didReceiveMemoryWarning() {
+   override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

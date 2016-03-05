@@ -15,17 +15,11 @@ class DetailVC: UIViewController {
         
         UIApplication.sharedApplication().statusBarStyle = .LightContent
 
-      
-    }
+      }
     
-   
-    
-    
-
-    override func didReceiveMemoryWarning() {
+   override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
-    
     }
     
     @IBAction func backPressed(sender: AnyObject) {
