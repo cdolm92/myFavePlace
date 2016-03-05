@@ -16,9 +16,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+         UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
         moreBtn.layer.cornerRadius = 2.0
         photosBtn.layer.cornerRadius = 2.0
     }
+    
+   
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
