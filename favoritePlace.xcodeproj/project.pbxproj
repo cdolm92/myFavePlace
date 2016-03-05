@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76715161C8A764700F1F840 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76715151C8A764700F1F840 /* PhotosVC.swift */; };
 		F7FCDB641C77C4E000CB10BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDB631C77C4E000CB10BE /* AppDelegate.swift */; };
 		F7FCDB661C77C4E100CB10BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCDB651C77C4E000CB10BE /* ViewController.swift */; };
 		F7FCDB691C77C4E100CB10BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FCDB671C77C4E100CB10BE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F76715151C8A764700F1F840 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		F7FCDB601C77C4E000CB10BE /* favoritePlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = favoritePlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FCDB631C77C4E000CB10BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FCDB651C77C4E000CB10BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F7FCDB631C77C4E000CB10BE /* AppDelegate.swift */,
 				F7FCDB651C77C4E000CB10BE /* ViewController.swift */,
 				F7FCDB751C77D2AE00CB10BE /* DetailVC.swift */,
+				F76715151C8A764700F1F840 /* PhotosVC.swift */,
 				F7FCDB671C77C4E100CB10BE /* Main.storyboard */,
 				F7FCDB6A1C77C4E100CB10BE /* Assets.xcassets */,
 				F7FCDB6C1C77C4E100CB10BE /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				F7FCDB661C77C4E100CB10BE /* ViewController.swift in Sources */,
 				F7FCDB641C77C4E000CB10BE /* AppDelegate.swift in Sources */,
 				F7FCDB761C77D2AE00CB10BE /* DetailVC.swift in Sources */,
+				F76715161C8A764700F1F840 /* PhotosVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				F7FCDB741C77C4E100CB10BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
